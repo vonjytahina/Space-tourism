@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { HashRouter, Routes, Route} from "react-router-dom";
 import Home from "./components/Home";
 import Destination from "./components/Destination";
 import Crew from "./components/Crew";
@@ -6,10 +6,14 @@ import Technology from "./components/Technology";
 
 function App() {
   return (
+<<<<<<< HEAD
     
+=======
+    <HashRouter> 
+>>>>>>> 54aec1e5fb049ed6c5b7a119d3dc1d2ff129a47e
       <>
         <Routes>
-          <Route path="/" element={<Home />} />       
+          <Route path="" element={<Home />} />       
           <Route path="/destination" element={<Destination />} />       
           <Route path="/crew" element={<Crew />} />       
           <Route path="/technology" element={<Technology/>} />       
@@ -33,7 +37,11 @@ function App() {
             .
           </div>
       </>
+<<<<<<< HEAD
 
+=======
+    </HashRouter>
+>>>>>>> 54aec1e5fb049ed6c5b7a119d3dc1d2ff129a47e
   );
 }
 
