@@ -33,13 +33,8 @@ function App() {
             .
           </div>
       </>
-<<<<<<< HEAD
 
-=======
-    </HashRouter>
->>>>>>> 54aec1e5fb049ed6c5b7a119d3dc1d2ff129a47e
-  );
-}
+
 
 export default App;
 
