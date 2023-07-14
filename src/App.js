@@ -6,13 +6,14 @@ import Technology from "./components/Technology";
 
 function App() {
   return (
-    <BrowserRouter> 
+    
       <>
         <Routes>
           <Route path="/" element={<Home />} />       
           <Route path="/destination" element={<Destination />} />       
           <Route path="/crew" element={<Crew />} />       
           <Route path="/technology" element={<Technology/>} />       
+          
         </Routes>
         <div class="attribution">
             Challenge by{" "}
@@ -32,7 +33,7 @@ function App() {
             .
           </div>
       </>
-    </BrowserRouter>
+
   );
 }
 
