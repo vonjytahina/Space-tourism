@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { HashRouter, Routes, Route} from "react-router-dom";
 import Home from "./components/Home";
 import Destination from "./components/Destination";
 import Crew from "./components/Crew";
@@ -6,7 +6,7 @@ import Technology from "./components/Technology";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}> 
+    <HashRouter> 
       <>
         <Routes>
           <Route path="/" element={<Home />} />       
@@ -32,7 +32,7 @@ function App() {
             .
           </div>
       </>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
