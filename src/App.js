@@ -6,7 +6,11 @@ import Technology from "./components/Technology";
 
 function App() {
   return (
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> ddd5a95fdeb687a47a40e35d61524941107a0fec
       <>
         <Routes>
           <Route path="/" element={<Home />} />       
@@ -16,7 +20,11 @@ function App() {
           
         </Routes>
         <Home />
+<<<<<<< HEAD
         <div>Test div</div>
+=======
+  <div>test div</div>
+>>>>>>> ddd5a95fdeb687a47a40e35d61524941107a0fec
         <div class="attribution">
             Challenge by{" "}
             <a
@@ -36,8 +44,12 @@ function App() {
           </div>
       </>
 
+<<<<<<< HEAD
   );
 }
+=======
+
+>>>>>>> ddd5a95fdeb687a47a40e35d61524941107a0fec
 
 export default App;
 
