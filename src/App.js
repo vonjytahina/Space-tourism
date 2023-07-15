@@ -15,6 +15,7 @@ function App() {
           <Route path="/technology" element={<Technology/>} />       
           
         </Routes>
+        <Home />
         <div class="attribution">
             Challenge by{" "}
             <a
